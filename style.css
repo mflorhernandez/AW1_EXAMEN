@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: blueviolet;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}   
+
+.grid-container{
+    margin: 5rem;
+    display: grid;
+    grid-template-columns: repeat (auto-fill,minmax(15 rem, 1fr));
+    gap: 5rem;
+}
+
+.flex-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.container {
+    background: #262626;
+    color: azure;
+    margin: 40px;
+    padding: 40px;
+    width: 50vw;
+    border: 50px solid #c76262;
+    border-radius: 1rem;
+}
+
+.title.text{
+    color: aliceblue;
+    text-decoration: underline;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#bts{
+    color: rgb(187, 37, 187);
+
+}
+
+footer{
+color: rgb(116, 116, 116);
+background: #161616;
+margin-top: 3rem;
+padding: 2.5rem;
+}
+
+.button{
+    height: 30px;
+    width: 70px;
+    border: 0px;
+    border-radius: 15px;
+    font-weight: bolder ;
+    color: white;
+    cursor: pointer;
+}
+
+.button-login{
+    background-color: rgb(0, 121, 81);  
+}
+
+.button-logout{
+    background-color: rgb(188, 5, 5);
+}
+
+.button-login:hover{
+    background-color:  rgb(2, 164, 110);
+    
+}
+
+.button-logout:hover{
+    background-color:  rgb(248, 6, 6);
+    
+}
+
+.button:hover{
+    transition: all ease-in-out 0.5s;
+}
